@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include widgets_collection *.css
+recursive-include widgets_collection *.csv
+recursive-include widgets_collection *.html
+recursive-include widgets_collection *.ico
+recursive-include widgets_collection *.js
+recursive-include widgets_collection *.json
+recursive-include widgets_collection *.md
+recursive-include widgets_collection *.png
+recursive-include widgets_collection *.py
+recursive-include widgets_collection *.svg
+recursive-include widgets_collection *.txt
+recursive-exclude widgets_collection *.pyc

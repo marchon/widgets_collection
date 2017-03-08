@@ -1,0 +1,111 @@
+/* login-css */
+
+#login-widget .icon-facebook,
+#login-widget .icon-facebook-sign{
+    color: #3b5998;
+}
+#login-widget .icon-google-plus,
+#login-widget .icon-google-plus-sign{
+    color: #C63D2D;
+}
+#login-widget .icon-github,
+#login-widget .icon-github-sign{
+    color: black;
+}
+
+#login-widget .icon-twitter,
+#login-widget .icon-twitter-sign{
+    color: #00a0d1;
+}
+
+#login-widget .icon-linkedin,
+#login-widget .icon-linkedin-sign{
+    color: #4875B4;
+}
+
+#login-widget .form-signin {
+  max-width: 360px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 50px;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: #fff;
+}
+#login-widget .form-signin .form-signin-heading,
+#login-widget .form-signin .checkbox {
+  margin-bottom: 10px;
+}
+#login-widget .form-signin .checkbox {
+  font-weight: normal;
+}
+#login-widget .form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 6px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+#login-widget .form-signin .form-control:focus {
+  z-index: 2;
+}
+
+#login-widget .btn-social {
+	margin: 10px;
+}
+
+#login-widget h5 {
+  position: relative;
+  text-align: center;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+#login-widget h5 span {
+  background: #fff;
+  padding: 0 15px;
+  position: relative;
+  z-index: 1;
+}
+
+#login-widget h5:before {
+  background: #ddd;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+    top: 50%;
+  width: 100%;
+}
+#login-widget h5:before {
+  left: 0;
+}
+#login-widget .login_header{
+	font-size: 36px;
+    position: relative;
+    text-align: center;
+	margin-bottom:20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+	font-weight: 300;
+}
+
+#login-widget p{
+	margin-bottom:20px;
+}
+#login-widget .btn-login,
+#login-widget .btn-signup,
+#login-widget .btn-forgot {
+	background: #7575ff;
+	color: white;
+}
+
+#login-widget .btn-login {
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+	font-size: 14px;
+}
