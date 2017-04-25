@@ -28,10 +28,13 @@ login.bind_events = function() {
 	$(".form-signup").on("submit", function(event) {
 		event.preventDefault();
 		var args = {};
-		args.cmd = "frappe.core.doctype.user.user.sign_up";
+		args.cmd = "frappe_starter_theme.login.sign_up";
 		args.email = ($("#signup_email").val() || "").trim();
 		args.redirect_to = get_url_arg("redirect-to") || '';
 		args.full_name = ($("#signup_fullname").val() || "").trim();
+		args.pwd = ($("#signup_password").val() || "").trim();
+		args.pwd_check = ($("#signup_password_check").val() || "").trim();
+
 		if(!args.email || !valid_email(args.email) || !args.full_name) {
 			frappe.msgprint(__("Valid email and name required"));
 			return false;
