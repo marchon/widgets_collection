@@ -1,0 +1,24 @@
+{% extends "templates/web.html" %}
+{% block title %} Login {% endblock %}
+
+{% block style %}
+	<style>
+		{% include "templates/widgets/login/css/widget.css" %}
+	</style>
+{% endblock %}
+
+{% block content %}
+
+<div class="awc-form">
+	<div  id="login">
+		{% include "templates/widgets/login/widget.html" with context %}
+	</div>
+</div>
+
+{% endblock %}
+
+{% block script %}
+<script type="text/javascript">
+	{% include "templates/widgets/login/js/widget.js" with context %}
+</script>
+{% endblock %}

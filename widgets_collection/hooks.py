@@ -11,6 +11,10 @@ app_color = "grey"
 app_email = "forellana@digithinkit.com"
 app_license = "MIT"
 
+website_route_rules = [
+	{"from_route": "/login", "to_route": "widget_login"}
+]
+
 # Includes in <head>
 # ------------------
 
@@ -110,4 +114,3 @@ app_license = "MIT"
 # override_whitelisted_methods = {
 # 	"frappe.desk.doctype.event.event.get_events": "widgets_collection.event.get_events"
 # }
-
