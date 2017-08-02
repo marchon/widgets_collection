@@ -153,7 +153,7 @@ login.login_handlers = (function() {
 				frappe.msgprint(data.message);
 			}
 		},
-		401: get_error_handler(__('<div align="center">Sorry! That login does not exist. <br><br><b>We have updated our website</b><br><br>If you had an account with us previously try your <b>email address instead.</b><br>And/or click the <b><i>Forgot Password?</i></b> link below the password field to reset your password.')),
+		401: get_error_handler(__('<div align="center">Sorry! That login does not exist. <br><br><b>We have updated our website</b><br><br>If you had an account with us previously try your <b>email address instead.</b><br>And/or click the <b><i>Forgot Password?</i></b> link below the password field to reset your password.</div>')),
 		417: get_error_handler(__("Oops! Something went wrong"))
 	};
 
