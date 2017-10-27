@@ -43,7 +43,7 @@
         {%- endif -%}
       </p>
     {%- endif -%}
-    {% if ldap_settings.enabled %}
+    {% if ldap_settings and ldap_settings.enabled %}
       <p>
         <button class="btn btn-lg btn-default btn-block btn-login btn-ldpa-login">
             {{ _("Login via LDAP") }}</button>
